@@ -1,0 +1,25 @@
+.galeria{
+    width: 610px;
+    padding: 20rem;
+    background: #e5e3de;
+    margin: 0px auto;
+    display: flex;
+    grid-column-gap: 20px;
+    
+  }
+  .musica {
+    width: 180px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: radial-gradient(#eaedef, #c2c4c6);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    box-shadow: 0 2px 3px #ccc;
+    border-radius: 0.5em;
+    -moz-transition: 0.1s ease-in;
+    -webkit-transition: 0.1s ease-in;
+    transition: 0.1s ease-in;
+  }
